@@ -67,7 +67,7 @@ public class BuildingCollider : MonoBehaviour
         if (target <= current)
         {
             currentMode = Mode.Unlocked;
-            moneyUI.text = current.ToString() + "1$/3second";
+            moneyUI.text = "1$/3second";
             return true;
         }
         return false;
